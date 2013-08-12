@@ -3,15 +3,11 @@ public class Punto {
 	public double x;
 	public double y;
 	
-	
-
-	
 	public Punto(double x, double y) {
 		super();
 		this.x = x;
 		this.y = y;
 	}
-
 
 	public String toString() {
 		// TODO Auto-generated method stub
@@ -20,7 +16,6 @@ public class Punto {
 		return coordenada;
 	}
 	
-
 	public double HallarDistancia(Punto z)
 	{
 		double coordenada;
@@ -32,3 +27,4 @@ public class Punto {
 	
 
 }
+
