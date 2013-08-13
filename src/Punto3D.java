@@ -1,8 +1,5 @@
 public class Punto3D extends Punto{
 
-
-
-
 	public Punto3D(double x, double y) {
 		super(x, y);
 		// TODO Auto-generated constructor stub
@@ -14,15 +11,12 @@ public class Punto3D extends Punto{
 		return super.toString();
 	}
 
-	
 	public double HallarDistancia() {
 		// TODO Auto-generated method stub
-		double coor1;
-		coor1=0;
-		return coor1;
-		
+		double coordenada;
+		coordenada=0;
+		return coordenada; 
 	}
-	
-	
 
 }
+
