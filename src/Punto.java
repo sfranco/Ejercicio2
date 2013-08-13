@@ -20,7 +20,7 @@ public class Punto {
 	{
 		double coordenada;
 		coordenada=0;
-		coordenada=Math.round(Math.sqrt(Math.pow(this.x-z.x,2)+Math.pow(this.y-z.y,2)));
+		coordenada=Math.round((Math.sqrt(Math.pow(this.x-z.x,2)+Math.pow(this.y-z.y,2))));
 		return coordenada; 
 		
 	}

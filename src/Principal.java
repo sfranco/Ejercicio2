@@ -28,9 +28,12 @@ public class Principal {
 		System.out.print("Ingrese Coordenada Y3: ");
 		y3 =sc.nextDouble();
 		
+		y3=Math.sqrt(y3);
+		
 		p1 = new Punto(x1,y1);
 		p2 = new Punto(x2,y2);
 		p3 = new Punto(x3,y3);
+		
 		
 		Triangulo triangulo = new Triangulo(p1,p2,p3);
 		
